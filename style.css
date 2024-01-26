@@ -3,3 +3,29 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: blue;
+}
+
+
+div {
+  float: left;
+  width: 25%;
+  background-color: pink;
+}
+
+
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  font-size: 12px
+}
